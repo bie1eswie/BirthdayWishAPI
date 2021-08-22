@@ -13,9 +13,9 @@ namespace BirthdayWishAPI.Infrastructure.Messaging
 				public string SendMessage(MessageParameter messageParameter)
 				{
 						var filteredEmployeeList = from a in messageParameter.EmployeesModel.Employees
-																			 where ((a.employmentEndDate ==null || a.employmentEndDate?.CompareTo(DateTime.Now)>0) && a.employmentStartDate.CompareTo(DateTime.Now) < 0) //&&
-																						 //((a.dateOfBirth.Day.CompareTo(DateTime.Now.Day)==0) && (a.dateOfBirth.Month.CompareTo(DateTime.Now.Month) == 0)) ||
-																						 //((a.dateOfBirth.Month ==2 && a.dateOfBirth.Day == 29) && (DateTime.Now.Day ==28 && DateTime.Now.Month ==2) && !DateTime.IsLeapYear(DateTime.Now.Year)) 
+																			 where ((a.employmentEndDate ==null || a.employmentEndDate?.CompareTo(DateTime.Now)>0) && a.employmentStartDate.CompareTo(DateTime.Now) < 0) &&
+																						 ((a.dateOfBirth.Day.CompareTo(DateTime.Now.Day)==0) && (a.dateOfBirth.Month.CompareTo(DateTime.Now.Month) == 0)) ||
+																						 ((a.dateOfBirth.Month ==2 && a.dateOfBirth.Day == 29) && (DateTime.Now.Day ==28 && DateTime.Now.Month ==2) && !DateTime.IsLeapYear(DateTime.Now.Year)) 
 																			 select a;
 
 						StringBuilder messageBuilder = new StringBuilder();

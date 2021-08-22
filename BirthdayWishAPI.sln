@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BirthdayWishAPI", "BirthdayWishAPI\BirthdayWishAPI.csproj", "{0A24B58F-C0A8-4D5E-9F03-ABF0614A502C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirthdayWish.Testing", "BirthdayWish.Testing\BirthdayWish.Testing.csproj", "{F1527B05-33CA-4FCC-AF4C-4BBB524BD13A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A24B58F-C0A8-4D5E-9F03-ABF0614A502C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A24B58F-C0A8-4D5E-9F03-ABF0614A502C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A24B58F-C0A8-4D5E-9F03-ABF0614A502C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A24B58F-C0A8-4D5E-9F03-ABF0614A502C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1527B05-33CA-4FCC-AF4C-4BBB524BD13A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1527B05-33CA-4FCC-AF4C-4BBB524BD13A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1527B05-33CA-4FCC-AF4C-4BBB524BD13A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1527B05-33CA-4FCC-AF4C-4BBB524BD13A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DFC0EC8A-DE59-4E1A-BB06-40C8D2D579DA}
+	EndGlobalSection
+EndGlobal

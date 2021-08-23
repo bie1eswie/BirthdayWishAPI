@@ -32,7 +32,7 @@ namespace BirthdayWish.Testing.Contollers
 				public void Send_Birthday_wishes_returns_json()
 				{
 						var result = _birthdayWishController.SendBirthdayWishes();
-						Assert.IsType<JsonResult>(result);
+						Assert.IsType<JsonResult>(result.Result);
 				}
 		}
 }
